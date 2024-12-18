@@ -1,40 +1,144 @@
 body {
-  background-image: url('san.jpg');
+  display: flex;
+  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
   color: rgb(15, 14, 14);
 }
 
-
-.f {
-  width: 20px;
-  height: 20px;
+h1 {
+  margin: 0;
+  font-size: 2em;
 }
 
-.log {
-  width: 40px;
-  height: 10px;
-  border-radius: 6px;
-  background: #007bff;
-  margin-left: 1%;
+h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+.auto {
+  margin: 0 auto;
+}
+
+.container-1 {
+  max-width: 1000px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 10px;
+}
+.container-2 {
+  background: #66ccda;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.container-3 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.header {
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border-radius: 10px;
 }
 
 header {
-  background-color: #343a40;
   color: white;
-  padding: 10px 0;
   text-align: center;
 }
 
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 30px;
+  padding: 0px;
+}
 
-.container {
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
+.logo-header {
+  width: 250px;
+  height: 30px;
+  margin-left: 3px;
+  border-radius: 10px;
+  color: #72a9f1;
+}
+
+.page-header-2-2 {
+  margin: auto;
+  padding: auto;
+  width: 740px;
+  height: 15px;
+  gap: 10px;
+}
+
+.nav {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.href {
+  font: 1em sans-serif;
+}
+
+.header-banner {
+  width: 1000px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid rgb(40, 8, 223);
+  overflow: hidden;
+}
+
+.header-3-1 {
+  display: flex;
+  width: 2700px; /* 4 imagens de 900px */
+  transition: transform 1s ease;
+}
+
+.banner-image {
+  width: 900px;
+  height: 300px;
+  object-fit: cover;
+  flex-shrink: 0; /* Impede que as imagens encolham */
+}
+
+/* Animação para alternar as imagens */
+@keyframes slideBanner {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-800px); }
+  50% { transform: translateX(-1600px); }
+  75% { transform: translateX(-2400px); }
+  100% { transform: translateX(0); }
+}
+
+.header-3-1 {
+  animation: slideBanner 16s infinite;
+}
+
+.carde-header {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid #e7f066;
 }
 
 .produto {
@@ -53,18 +157,6 @@ header {
   transition: transform 0.3s;
 }
 
-.img {
-  width: 300px;
-  height: 300px;
-  border-radius: 8px;
-}
-
-.texto {
-  width: 300px;
-  height: 50px;
-  border-radius: 8px;
-}
-
 .produto-card:hover {
   transform: scale(1.05);
 }
@@ -79,12 +171,6 @@ header {
 .produto-card h3 {
   margin: 10px;
   font-size: 1.2em;
-}
-
-h5 {
-  margin: 10px;
-  font-size: 1em;
-  color: #f7f4f4;
 }
 
 .produto-card p {
@@ -107,36 +193,11 @@ h5 {
 .produto-card button:hover {
   background-color: #0056b3;
 }
-.nav {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: #333;
-}
 
-.nav-item {
-  margin: 0;
+.f {
+  width: 15px;
+  height: 15px;
 }
-
-.nav-link {
-  display: block;
-  padding: 14px 20px;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-}
-
-.nav-link:hover {
-  background-color: #575757;
-}
-
-.nav-link.disabled {
-  color: #ccc;
-  pointer-events: none;
-}
- 
-
 
 .footer {
   background-color: #343a40;
@@ -201,44 +262,3 @@ h5 {
   padding: 10px 0;
   font-size: 14px;
 }
-
-
-.fu {
-  color: hsl(56, 94%, 53%);
-}
-
-.dropbtn {
-  background-color: #777c7a;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #8f8d8d;
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px #fcf9f9;
-  border-radius: 5px;
-}
-
-.dropdown-content a {
-  color: rgb(8, 8, 8);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  border-radius: 5px;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #494b49;}
