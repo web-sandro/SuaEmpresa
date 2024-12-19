@@ -269,6 +269,9 @@ header {
 
 @media (max-width: 768px) {
 
+  body {
+    background: #dbec42;
+    }
 
   .header {
     flex-direction: column;
@@ -324,9 +327,8 @@ header {
   }
 
   .nav {
-    margin: 0;
-    width: 50px;
-    gap: 10px;
+    width: 100%;
+    gap: 20px;
   }
 
 }
