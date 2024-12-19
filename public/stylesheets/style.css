@@ -269,39 +269,6 @@ header {
 
 @media (max-width: 768px) {
 
-  body {
-    background: #dbec42;
-    }
-
-  .header {
-    flex-direction: column;
-    height: auto;
-    text-align: center;
-  }
-
-  .header-1 {
-    width: 100%;
-    height: 100px;
-    flex-direction: column;
-    align-items: center;
-  }
-
- 
-  .logo-header {
-    width: 200px;
-    height: 70px;
-  }
-
-  .header-banner {
-    width: 100%;
-    height: 200px;
-  }
-
-  .nav {
-    width: 100%;
-    gap: 20px;
-  }
-}
 
   .header {
     flex-direction: column;
@@ -319,6 +286,7 @@ header {
  
   .logo-header {
     width: 350px;
+    height: 70px;
   }
 
   .header-banner {
@@ -349,17 +317,35 @@ header {
     font-size: 1.2em;
   }
 
+  .header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .header-1 {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  .logo-header {
+    width: 350px;
+    height: 70px;
+  }
+
   .header-banner {
     width: 100%;
     height: 200px;
   }
 
-  .header-1 {
+  .nav {
     width: 100%;
-    height: 200px;
-    flex-direction: column;
-    align-items: center;
+    gap: 20px;
   }
+
 
   .banner-image {
     height: 200px;
