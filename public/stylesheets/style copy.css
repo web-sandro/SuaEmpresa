@@ -293,6 +293,24 @@ header {
     gap: 20px;
   }
 
+  .produto-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .coluna {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer .social-icons {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -316,4 +334,12 @@ header {
     height: 200px;
   }
 
+  .produto-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .produto-card button {
+    padding: 8px;
+  }
 }
