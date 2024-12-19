@@ -270,15 +270,15 @@ header {
 @media (max-width: 768px) {
 
   .container-1 {
-    max-width: 300px;
+    max-width: 500px;
   }
 
   .container-2 {
-    max-width: 300px;
+    max-width: 500px;
   }
 
   .container-3 {
-    max-width: 300px;
+    max-width: 500px;
   }
 
   .header {
