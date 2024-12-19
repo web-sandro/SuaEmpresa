@@ -1,5 +1,5 @@
 body {
-
+background: #c2faf1;
   display: flex;
   flex-direction: column;
   background-size: cover;
@@ -38,6 +38,7 @@ h3 {
   border-radius: 10px;
 }
 .container-2 {
+  max-width: 1000px;
   background: #66ccda;
   max-width: 1000px;
   margin: 0 auto;
@@ -267,6 +268,19 @@ header {
 }
 
 @media (max-width: 768px) {
+
+  .container-1 {
+    max-width: 300px;
+  }
+
+  .container-2 {
+    max-width: 300px;
+  }
+
+  .container-3 {
+    max-width: 300px;
+  }
+
   .header {
     flex-direction: column;
     height: auto;
@@ -274,23 +288,64 @@ header {
   }
 
   .header-1 {
+    width: 100%;
+    height: 100px;
     flex-direction: column;
     align-items: center;
   }
 
+ 
   .logo-header {
     width: 200px;
+    height: 70px;
+  }
+
+  .header-banner {
+    width: 100%;
+    height: 200px;
   }
 
   .nav {
     width: 100%;
-    flex-direction: column;
     gap: 20px;
+  }
+}
+
+  .header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .header-1 {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  .logo-header {
+    width: 350px;
+  }
+
+  .header-banner {
+    width: 100%;
+    height: 200px;
+  }
+
+  .nav {
+    margin: 0;
+    width: 50px;
+    gap: 10px;
   }
 
 }
 
 @media (max-width: 480px) {
+
+  
+
   h1 {
     font-size: 1.5em;
   }
@@ -304,7 +359,15 @@ header {
   }
 
   .header-banner {
+    width: 100%;
     height: 200px;
+  }
+
+  .header-1 {
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .banner-image {
