@@ -42,20 +42,30 @@
 }
 
 .container-1-1 {
+  display: flex;
   max-width: 1570px;
-  height: 90px;
+  height: 120px;
 }
 
 .card-header-1 {
   display: flex;
   max-width: 1560PX;
-  height: 70px;
+  height: 30px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.container-2-1 {
+  display: flex;
+  max-width: 1560px;
+  max-height: 30px;
+  margin: 0 auto;
   padding: 0px;
   border-radius: 10px;
 }
 
 .logo-header {
-  width: 520px;
+  width: 350px;
   height: 70px;
   border-radius: 10px;
   color: #ee68f3;
@@ -231,13 +241,13 @@
   
   .card-header {
     width: 350px;
-    height: 300px;
+    height: 350px;
     border-radius: 10px;
   }
   
   .header-banner {
     width: 350px;
-    height: 300px;
+    height: 350px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -245,7 +255,7 @@
   .header-3-1 {
     display: flex;
     width: 350px;
-    height: 300px;
+    height: 350px;
   }
  
   .container-1-1 {
