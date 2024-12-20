@@ -55,17 +55,8 @@
   border-radius: 10px;
 }
 
-.container-2-1 {
-  display: flex;
-  max-width: 1560px;
-  max-height: 30px;
-  margin: 0 auto;
-  padding: 0px;
-  border-radius: 10px;
-}
-
 .logo-header {
-  width: 350px;
+  width: 520px;
   height: 70px;
   border-radius: 10px;
   color: #ee68f3;
