@@ -231,13 +231,13 @@
   
   .card-header {
     width: 350px;
-    height: 100px;
+    height: 300px;
     border-radius: 10px;
   }
   
   .header-banner {
     width: 350px;
-    height: 100px;
+    height: 300px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -245,7 +245,7 @@
   .header-3-1 {
     display: flex;
     width: 350px;
-    height: 100px;
+    height: 300px;
   }
  
   .container-1-1 {
