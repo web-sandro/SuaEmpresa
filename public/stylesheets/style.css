@@ -1,32 +1,19 @@
 body {
   background: #c2faf1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: Arial, sans-serif;
-  color: rgb(15, 14, 14);
 }
 
 .container-1 {
-  max-width: 1200px;
-  margin: 0PX;
-  padding: 10px;
+  max-width: 1570px;
 }
 
-.carde-header {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 1200px;
+.card-header {
+  width: 1560px;
   height: 300px;
   border-radius: 10px;
 }
 
 .header-banner {
-  width: 1200px;
+  width: 1560px;
   height: 300px;
   border-radius: 10px;
   border: 1px solid rgb(40, 8, 223);
@@ -35,7 +22,7 @@ body {
 
 .header-3-1 {
   display: flex;
-  width: 100%;
+  width: 1560;
   height: 300px;
 }
 
@@ -45,109 +32,6 @@ body {
   object-fit: cover;
   flex-shrink: 0; /* Impede que as imagens encolham */
 }
-
-.header-1 {
-  display: flex;
-  width: 1240PX;
-  height: 70px;
-  padding: 0px;
-}
-
-.logo-header {
-  width: 700px;
-  height: 70px;
-  border-radius: 10px;
-  color: #72a9f1;
-}
-
-.page-header-2-2 {
-  width: 700px;
-  height: 70px;
-  gap: 100px;
-}
-
-.nav {
-  width: 450px;
-  margin-top: 10px;
-  display: flex;
-  padding: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-.container-2 {
-  max-width: 1400px;
-  background: #66ccda;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0px;
-  border-radius: 10px;
-}
-
-.container-3 {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0px;
-  border-radius: 10px;
-}
-
-/* header {
-  width: auto;
-  margin: auto;
-}
-
-main {
- width: 1400px;
- margin: auto;
-}
-
-footer {
-  width: 1400px;
-  margin: auto;
-} */
-
-
-
-/* h1 {
-  margin: 0;
-  font-size: 2em;
-}
-
-h2 {
-  margin: 0;
-  font-size: 1.5em;
-  color: #007bff;
-}
-
-h3 {
-  margin: 0;
-  font-size: 1.5em;
-  color: #007bff;
-} */
-
-.auto {
-  margin: 0 auto;
-}
-
-
-
-
-.btnav {
-  width: 150px;
-  height: 50px;
-  border-radius: 50px;
-  background: #66ccda;
-}
-
-
 
 /* Animação para alternar as imagens */
 @keyframes slideBanner {
@@ -162,7 +46,75 @@ h3 {
   animation: slideBanner 16s infinite;
 }
 
+.container-1-1 {
+  max-width: 1570px;
+  height: 90px;
+}
 
+.card-header-1 {
+  display: flex;
+  max-width: 1560PX;
+  height: 70px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.logo-header {
+  width: 520px;
+  height: 70px;
+  border-radius: 10px;
+  color: #ee68f3;
+}
+
+.inter {
+  width: 520px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  border-radius: 10px;
+}
+
+.page-header-2-2 {
+  width: 520px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  border-radius: 10px;
+}
+
+.nav {
+  width: 450px;
+  margin-top: 20px;
+  display: flex;
+  padding: 0;
+}
+
+
+.auto {
+  margin: 0 auto;
+}
+
+.btnav {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background: #66ccda;
+}
+
+.container-2 {
+  max-width: 1570px;
+  background: #66ccda;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.main {
+  width: 1400px;
+  margin: auto;
+ }
+ 
 .produto {
   display: flex;
   flex-wrap: wrap;
@@ -170,11 +122,11 @@ h3 {
 }
 
 .produto-card {
-  background-color: white;
-  border: 1px solid #ddd;
+  border: 1px solid #ee0505;
   border-radius: 8px;
   margin: 10px;
   width: 300px;
+  height: 400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
@@ -185,6 +137,7 @@ h3 {
 
 .produto-card img {
   width: 100%;
+  height: 300px;
   border-bottom: 1px solid #ddd;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -192,34 +145,19 @@ h3 {
 
 .produto-card h3 {
   margin: 10px;
-  font-size: 1.2em;
+  font-size: 2.3em;
 }
 
 .produto-card p {
   margin: 0 10px 10px;
 }
 
-.produto-card button {
-  display: block;
-  width: calc(100% - 20px);
-  margin: 10px;
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.produto-card button:hover {
-  background-color: #0056b3;
-}
-
-.f {
-  width: 15px;
-  height: 15px;
-}
+.container-3 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 10px;
+} 
 
 .footer {
   background-color: #343a40;
@@ -284,6 +222,31 @@ h3 {
   padding: 10px 0;
   font-size: 14px;
 }
+
+.f {
+  width: 15px;
+  height: 15px;
+}
+
+
+/*h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+
 /* 
 @media (max-width: 768px) {
 
