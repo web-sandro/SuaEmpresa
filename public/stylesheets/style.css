@@ -256,13 +256,13 @@ h3 {
   
   .card-header {
     width: 500px;
-    height: 200px;
+    height: 100px;
     border-radius: 10px;
   }
   
   .header-banner {
     width: 500px;
-    height: 200px;
+    height: 100px;
     border-radius: 10px;
     border: 1px solid rgb(40, 8, 223);
     overflow: hidden;
@@ -271,9 +271,9 @@ h3 {
   .header-3-1 {
     display: flex;
     width: 500;
-    height: 200px;
+    height: 100px;
   }
-
+/* 
   .container-1-1 {
     max-width: 500px;
     height: 90px;
@@ -319,11 +319,11 @@ h3 {
   
   .nav {
     width: 100%;
-  }
+  } */
 
 }
 
- @media (max-width: 480px) { 
+ /* @media (max-width: 480px) { 
 
   
   .header {
@@ -367,6 +367,4 @@ h3 {
 
   .banner-image {
     height: 100%;
-  }
-
-} */
+  } */
