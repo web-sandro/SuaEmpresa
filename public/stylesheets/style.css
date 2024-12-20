@@ -1,5 +1,7 @@
 .container-1 {
   max-width: 1570px;
+  margin: 0 auto;
+  padding: 0px;
 }
 
 .card-header {
@@ -42,6 +44,8 @@
 }
 
 .container-1-1 {
+  margin: 0 auto;
+  padding: 0px;
   display: flex;
   max-width: 1570px;
   height: 170px;
@@ -90,7 +94,6 @@
 }
 
 .container-2 {
-  max-width: 1570px;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0px;
