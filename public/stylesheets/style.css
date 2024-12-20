@@ -251,58 +251,76 @@ h3 {
 @media (max-width: 768px) {
 
   .container-1 {
-    max-width: 768px;
+    max-width: 500px;
   }
-
+  
   .card-header {
-    width: 768px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
   }
-
+  
   .header-banner {
-    width: 768px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(40, 8, 223);
+    overflow: hidden;
   }
-
+  
   .header-3-1 {
-    width: 768px;
-  }
-
-  .banner-image {
-    width: 768px;
+    display: flex;
+    width: 500;
+    height: 200px;
   }
 
   .container-1-1 {
-    max-width: 768px;
+    max-width: 500px;
+    height: 90px;
   }
-
+  
   .card-header-1 {
-    max-width: 768px;
+    display: flex;
+    max-width: 500PX;
+    height: 70px;
+    padding: 0px;
+    border-radius: 10px;
   }
-
+  
   .logo-header {
-    width: 768px;
+    width: 520px;
+    height: 70px;
+    border-radius: 10px;
+    color: #ee68f3;
   }
-
+  
   .inter {
-    width: 768px;
+    width: 520px;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
   }
-
+  
   .page-header-2-2 {
-    width: 768px;
+    width: 520px;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
   }
-
+  
   .nav {
-    width: 768px;
+    width: 450px;
+    margin-top: 20px;
+    display: flex;
+    padding: 0;
   }
   
-  .container-2 {
-    max-width: 768px;
+  .nav {
+    width: 100%;
   }
 
-  .main {
-    width: 768px;
-  }
-
-  
 }
 
  @media (max-width: 480px) { 
