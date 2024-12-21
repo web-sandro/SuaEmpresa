@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
+var indexRouter = require('./routes/indexRoutes');
 var usersRouter = require('./routes/users');
 var lojaRouter = require('./routes/lojaRoutes');
 
@@ -42,6 +42,23 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+
+// Rota de exemplo
+app.get('/', (req, res) => {
+    res.send('Página inicial');
+});
+
+// Middleware para tratar erros
+app.use((err, req, res, next) => {
+    res.status(err.status || 500);
+
+    // Renderiza a página de erro, passando 'mensagem' e 'error'
+    res.render('error', {
+        mensagem: 'Ocorreu um erro inesperado.',  // Mensagem de erro personalizada
+        error: err                            // O objeto de erro
+    });
 });
 
 
