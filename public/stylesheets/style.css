@@ -63,7 +63,7 @@
   width: 520px;
   height: 40px;
   border-radius: 10px;
-  color: #ee68f3;
+  color: black;
 }
 
 .page-header-2-2 {
@@ -120,7 +120,7 @@
   border: 2px solid #7de9bf;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
-  background: rgb(241, 245, 205);
+  background-color: rgb(225, 235, 160);
 }
 
 .produto-card:hover {
@@ -137,13 +137,13 @@
 
 .produto-preco a {
   text-decoration: none;
-  color: #333;
+  color: black;
   font-size: 1.5em;
   margin: 10px;
   display: block;
   text-align: center;
   font-weight: bold;
-  color: #333;
+  color: black;
 }
 
 .produto-preco h3 {
@@ -164,7 +164,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* Fundo escurecido */
+  background-color: black; /* Fundo escurecido */
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -216,15 +216,15 @@
 }
 
 .container-3 {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0px;
   border-radius: 10px;
 } 
 
 .footer {
-  background-color: #343a40;
-  color: white;
+  background-color: rgb(225, 235, 160);
+  color: black;
   padding: 20px 0;
   display: flex;
   justify-content: space-around;
@@ -254,7 +254,7 @@
 }
 
 .footer .column ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -280,7 +280,7 @@
 
 .footer-bottom {
   background-color: #222;
-  color: #ccc;
+  color: white;
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
@@ -343,7 +343,7 @@
     width: 350px;
     height: 45px;
     border-radius: 10px;
-    color: #ee68f3;
+    color: black;
   }
   
   .page-header-2-2 {
