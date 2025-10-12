@@ -1,9 +1,10 @@
 {
-  "name": "Meu App",
-  "short_name": "App",
+  "name": "Litoral Norte Software",
+  "short_name": "Litoral Norte",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
