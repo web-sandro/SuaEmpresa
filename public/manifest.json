@@ -1,7 +1,7 @@
 {
   "name": "Litoral Norte Software",
   "short_name": "Litoral Norte",
-  "start_url": "/",
+  "start_url": "https://litoralnortesoftware.com.br",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
