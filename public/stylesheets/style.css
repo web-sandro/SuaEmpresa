@@ -324,6 +324,7 @@ body {
 /* === RESPONSIVO === */
 @media (max-width: 768px) {
   .container-1 {
+    display: block;
     max-width: 100%;
     margin-right: 26vw;
   }
