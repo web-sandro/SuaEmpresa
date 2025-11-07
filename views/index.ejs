@@ -33,17 +33,22 @@
 
 <body>
   <header>
-    <div class="container-1">
+    <div class="container-1"> 
+      <div class="logo-header">
+        <img class="imagem-logo" src="/imagens/imagem-logo.png" alt="logo">
+        <h1 class="title-header">Litoral Norte Software</h1>
+        <p class="subtitle-header">Soluções em Software para Você!</p>
+      </div>
       <div class="card-header">
         <div class="header-banner">
           <div class="header-3-1">
             <img src="/imagens/imagem1.jpg" alt="Imagem 1" class="banner-image">
-            <img src="/imagens/imagem2.jpg" alt="Imagem 2" class="banner-image">
             <img src="/imagens/imagem3.jpg" alt="Imagem 3" class="banner-image">
             <img src="/imagens/imagem4.jpg" alt="Imagem 4" class="banner-image">
           </div>
         </div>
       </div>
+     
     </div>
   </header>
 
@@ -168,11 +173,12 @@
         <div class="column">
           <h3>Contatos</h3>
           <ul>
-            <li>Telefone: (12) 99148-5333</li>
-            <li>Telefone: (12) 97812-2063
+            <li>Telefone: (12) 99148-5333 
               <a href="https://wa.me/55129975910549" target="_blank">
                 <img src="/images/whatsapp.png" class="f">
-              </a>
+              </a></li>
+            <li>Telefone: (12) 97812-2063
+             
             </li>
             <li>Email: litoralnortesoftware@hotmail.com</li>
             <li>Gmail: litoralnortesoftware@gmail.com</li>
@@ -182,8 +188,8 @@
           <h3>Endereço</h3>
           <ul>
             <li>litoralnortesoftware:</li>
-            <li>Rua Rrrrrrr, Nº 4555</li>
-            <li>Bairro Bbbbbbb</li>
+            <li>Rua Maria F. de Moura, Nº 4555</li>
+            <li>Bairro Tinga</li>
             <li>Caraguattuba - São Paulo, CEP 11674-760</li>
           </ul>
         </div>
@@ -193,7 +199,6 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre Nós</a></li>
             <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
             <li><a href="#">Política de Privacidade</a></li>
           </ul>
         </div>
@@ -207,7 +212,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        < /> &copy;2024 litoralnortesoftware: Todos os direitos reservados.
+        < /> &copy;2026 litoralnortesoftware: Todos os direitos reservados.
       </div>
     </div>
   </footer>
@@ -241,39 +246,7 @@
         lista.appendChild(li);
       });
       document.getElementById("total").textContent = total.toFixed(2);
-    }
-
-    document.getElementById("finalizar-pix").addEventListener("click", () => {
-      if (total === 0) {
-        alert("Adicione produtos ao carrinho antes de finalizar.");
-        return;
-      }
-
-      const chavePix = "12988191026";
-      const nomeRecebedor = "Mateus Gomes";
-      const cidade = "ILHABELA";
-      const valor = total.toFixed(2);
-      const descricao = "Pagamento de produtos";
-
-      const payload = _pix.Pix(chavePix, nomeRecebedor, cidade, valor, descricao);
-      const qrCodeDataUrl = _pix.Pix(chavePix, nomeRecebedor, cidade, valor, descricao, true);
-
-      const qrcodeDiv = document.getElementById("qrcode-pix");
-      qrcodeDiv.innerHTML = "";
-
-      const img = document.createElement("img");
-      img.src = qrCodeDataUrl;
-      qrcodeDiv.appendChild(img);
-
-      const copia = document.createElement("textarea");
-      copia.value = payload;
-      copia.readOnly = true;
-      copia.style.width = "100%";
-      copia.style.height = "50px";
-      copia.style.marginTop = "10px";
-      qrcodeDiv.appendChild(document.createTextNode("\nCódigo Copia e Cola:\n"));
-      qrcodeDiv.appendChild(copia);
-    });
+    };
   </script>
     <script>
         if ('serviceWorker' in navigator) {
