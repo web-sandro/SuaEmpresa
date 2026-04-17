@@ -33,7 +33,7 @@
 
 <body>
   <header>
-    <div class="container-1"> 
+    <div class="container-1">
       <div class="logo-header">
         <img class="imagem-logo" src="/imagens/imagem-logo.png" alt="logo">
         <h1 class="title-header">Litoral Norte Software</h1>
@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-     
+
     </div>
   </header>
 
@@ -172,7 +172,7 @@
             </button>
           </div>
         </div>
-         <div class="produto-card">
+        <div class="produto-card">
           <!-- <a href="/imagens/9.zip">
             <img src="/imagens/imagem15.png" alt="Produto 9" />
           </a> -->
@@ -181,11 +181,11 @@
             <p class="produto-titulo">Software</p>
             <p class="produto-valor">R$ <span class="preco">0.00</span></p>
             <button onclick="window.open('https://software-s3z2.onrender.com', '_blank')">
-              Abrir Aplicação 
+              Abrir Aplicação
             </button>
           </div>
         </div>
-         <div class="produto-card">
+        <div class="produto-card">
           <!-- <a href="/imagens/9.zip">
             <img src="/imagens/imagem16.png" alt="Produto 9" />
           </a> -->
@@ -198,7 +198,7 @@
             </button>
           </div>
         </div>
-         <div class="produto-card">
+        <div class="produto-card">
           <!-- <a href="/imagens/9.zip">
             <img src="/imagens/imagem17.png" alt="Produto 9" />
           </a> -->
@@ -211,7 +211,7 @@
             </button>
           </div>
         </div>
-         <div class="produto-card">
+        <div class="produto-card">
           <!-- <a href="/imagens/9.zip">
             <img src="/imagens/imagem18.png" alt="Produto 9" />
           </a> -->
@@ -233,12 +233,13 @@
         <div class="column">
           <h3>Contatos</h3>
           <ul>
-            <li>Telefone: (12) 99148-5333 
+            <li>Telefone: (12) 99148-5333
               <a href="https://wa.me/55129975910549" target="_blank">
                 <img src="/images/whatsapp.png" class="f">
-              </a></li>
+              </a>
+            </li>
             <li>Telefone: (12) 97812-2063
-             
+
             </li>
             <li>Email: litoralnortesoftware@hotmail.com</li>
             <li>Gmail: litoralnortesoftware@gmail.com</li>
@@ -275,12 +276,9 @@
         < /> &copy;2026 litoralnortesoftware.com.br Todos os direitos reservados.
       </div>
     </div>
-    <!-- Botão flutuante para abrir Contato -->
-    <button id="openContact" class="floating-btn">Contato</button>
-
-    <!-- Container do contato (vai carregar via fetch) -->
-    <div id="contactContainer" class="contact-overlay" style="display:none;"></div>
-
+    <a href="https://contato-2ayg.onrender.com" target="_blank" class="floating-btn">
+      Contato
+    </a>
   </footer>
 
   <!-- <div id="carrinho"
@@ -314,13 +312,13 @@
       document.getElementById("total").textContent = total.toFixed(2);
     };
   </script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service-worker.js')
-            .then(() => console.log('Service Worker registrado com sucesso!'))
-            .catch(err => console.log('Erro ao registrar Service Worker:', err));
-        }
-    </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(() => console.log('Service Worker registrado com sucesso!'))
+        .catch(err => console.log('Erro ao registrar Service Worker:', err));
+    }
+  </script>
 </body>
 
 </html>
