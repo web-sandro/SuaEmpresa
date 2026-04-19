@@ -25,12 +25,3 @@ ajustar as consts no app
 
 Thunder Client
 
-meu-banner/
-│
-├── index.html         (arquivo HTML)
-├── style.css          (arquivo CSS)
-└── imagens/
-    ├── imagem1.jpg
-    ├── imagem2.jpg
-    ├── imagem3.jpg
-    └── imagem4.jpg
